@@ -52,8 +52,6 @@ O projeto utiliza dados estruturados para alimentar os modelos preditivos.
 O pipeline de dados segue as seguintes etapas de processamento:
 1. **Extração:** A ingestão ocorre via arquivos CSV do dataset AI4I, obtidos do repositório UCI.
 2. **Transformação:** O grupo aplica a limpeza de valores ausentes, a remoção de outliers e a normalização das escalas numéricas. 
-                      São realizadas etapas de limpeza dos dados, incluindo verificação de valores nulos, remoção de outliers e padronização das variáveis numéricas. 
-                      Também é feita a codificação de variáveis categóricas (como o tipo de produto) e seleção de atributos relevantes para a modelagem.
 3. **Carga:** Os dados tratados são disponibilizados na pasta `/data/processed` para consumo dos modelos de Machine Learning.
 
 ---
