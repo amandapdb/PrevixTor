@@ -3,7 +3,7 @@
 ### 1. Identificação do Grupo
 * **Instituição:** Faculdade Engenheiro Salvador Arena
 * **Curso:** [Engenharia de Controle e Automação]
-* **Grupo:** [AABH]
+* **Grupo:** [04]
 * **Integrantes:**
     * [Amanda Perini] - RA: [062210013]
     * [Arthur Delgado] - RA: [062210036]
