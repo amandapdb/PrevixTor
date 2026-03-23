@@ -1,0 +1,10 @@
+# Manipulação e Análise de Dados
+pandas
+numpy
+scikit-learn
+
+# Visualização de Dados e Relatórios
+# (não utilizado nesta etapa)
+
+# Processamento e Engenharia de Dados (ETL)
+# (não utilizado explicitamente com bibliotecas adicionais)
