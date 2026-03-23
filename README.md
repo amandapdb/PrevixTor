@@ -67,8 +67,10 @@ A organização das pastas facilita a manutenção e o versionamento do projeto:
 ---
 
 ### 7. Instruções para Execução
-Para reproduzir o ambiente de dados e executar o pipeline de ETL:
-1. Clona-se este repositório.
-2. Instalam-se as dependências através do comando:
-   ```bash
-   pip install -r requirements.txt
+
+Para reproduzir o pipeline de ETL:
+
+1. Fazer o download do dataset a partir do repositório UCI.
+2. Executar o notebook no Google Colab.
+3. Realizar o upload do arquivo CSV no ambiente do Colab.
+4. Executar as células sequencialmente para realizar o tratamento dos dados e geração do arquivo processado.
