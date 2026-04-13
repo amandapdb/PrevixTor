@@ -19,8 +19,6 @@ O grupo seleciona uma das áreas norteadoras abaixo para o desenvolvimento do pr
 * [ ] Controle de Qualidade Autônomo com Visão Computacional
 * [ ] Gêmeos Digitais (Digital Twins) e Analytics em Tempo Real
 
-> **Nota:** Marque com um [x] a opção escolhida.
-
 ---
 
 ### 3. Diagnóstico e Definição do Problema
