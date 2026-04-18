@@ -72,3 +72,9 @@ Para reproduzir o pipeline de ETL:
 2. Executar o notebook no Google Colab.
 3. Realizar o upload do arquivo CSV no ambiente do Colab.
 4. Executar as células sequencialmente para realizar o tratamento dos dados e geração do arquivo processado.
+
+---
+
+### 8. Aprofundamento Estatístico Individual
+
+A aluna Amanda validou que a relação entre a temperatura do ar e a temperatura do processo é significativa (p < 0,05) e apresenta forte correlação (≈ 0,86). Isso indica que ambas as variáveis possuem relevância para o modelo de Machine Learning, contribuindo para a capacidade preditiva. No entanto, por apresentarem alta correlação entre si, é necessário avaliar possíveis redundâncias, podendo ser considerada a utilização de apenas uma delas ou a criação de novas features derivadas, visando otimizar o desempenho do modelo.
