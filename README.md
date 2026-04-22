@@ -75,3 +75,12 @@ Para reproduzir o pipeline de ETL:
 
 ---
 
+### 8. Aprofundamento Estatístico Individual
+
+- A aluna Amanda validou que a relação entre a temperatura do ar e a temperatura do processo é significativa (p < 0,05) e apresenta forte correlação (≈ 0,86). Isso indica que ambas as variáveis possuem relevância para o modelo de Machine Learning, contribuindo para a capacidade preditiva. No entanto, por apresentarem alta correlação entre si, é necessário avaliar possíveis redundâncias, podendo ser considerada a utilização de apenas uma delas ou a criação de novas features derivadas, visando otimizar o desempenho do modelo.
+
+- O aluno Henrique Lopes validou estatisticamente que a velocidade de rotação influencia o desgaste da ferramenta (p < 0,05), sendo uma variável relevante para modelos de manutenção preditiva.
+
+
+---
+
