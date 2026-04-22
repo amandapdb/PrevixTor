@@ -81,6 +81,12 @@ Para reproduzir o pipeline de ETL:
 
 - O aluno Henrique Lopes validou estatisticamente que a velocidade de rotação influencia o desgaste da ferramenta (p < 0,05), sendo uma variável relevante para modelos de manutenção preditiva.
 
+- O aluno Arthur validou estatisticamente que a hipótese nula foi rejeitada, indicando que existe uma diferença estatisticamente significativa entre o torque em diferentes níveis de velocidade rotacional.
+Isso confirma o padrão observado na EDA e mostra que a relação entre essas variáveis não ocorreu por acaso.
+Impacto no problema de negócio:
+A relação entre velocidade e torque é um fator crítico no comportamento do motor e pode ser usada como indicador importante de falhas ou desgaste.
+Impacto no modelo de IA:
+As variáveis de velocidade (RPM) e Torque devem ser consideradas essenciais no modelo preditivo, sendo que essa relação pode melhorar significativamente a capacidade de prever falhas.
 
 ---
 
