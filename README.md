@@ -131,26 +131,26 @@ Foi utilizado o algoritmo **Random Forest Classifier**, adequado para problemas 
 * F1-Score: 0.98
 * Matriz de Confusão: utilizada para avaliar o desempenho do modelo
 * [[1932 0]
-* [ 2 66]]
+* [ 2   66]]
 
 ---
 
-## 🧠 Protótipo da Aplicação
+##  Protótipo da Aplicação
 
 A aplicação foi desenvolvida no Google AI Studio para simular o funcionamento do modelo em um ambiente interativo.
 
-🔗 Acesse o protótipo:
+ Acesse o protótipo:
 [https://aistudio.google.com/apps/8c38ab14-6db7-43ed-a190-d4e9674d4283](https://aistudio.google.com/apps/8c38ab14-6db7-43ed-a190-d4e9674d4283?source=start&showPreview=true&showAssistant=true)
 
 ---
 
-## ⚠️ Observação
+## Observação
 
 Devido a limitações do Google AI Studio para execução de modelos baseados em sklearn, foi implementada uma simulação da lógica do modelo para representar o comportamento da previsão de falhas.
 
 ---
 
-## 🚀 Conclusão
+## Conclusão
 
 O modelo demonstrou capacidade de identificar padrões associados a falhas, podendo ser utilizado como base para sistemas de manutenção preditiva.
 
