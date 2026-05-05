@@ -88,6 +88,10 @@ A relação entre velocidade e torque é um fator crítico no comportamento do m
 Impacto no modelo de IA:
 As variáveis de velocidade (RPM) e Torque devem ser consideradas essenciais no modelo preditivo, sendo que essa relação pode melhorar significativamente a capacidade de prever falhas.
 
+- A aluna Beatriz verificou, por meio de análise estatística, que o p-valor obtido foi superior a 0,05, indicando que não há evidências suficientes para rejeitar a hipótese nula.
+Esse resultado sugere que a temperatura do ar não exerce influência estatisticamente significativa sobre a velocidade de rotação, apresentando, portanto, baixa relevância como variável preditora em modelos de machine learning.
+ 
+
 ---
 
 # M3
