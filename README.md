@@ -140,7 +140,7 @@ Foi utilizado o algoritmo **Random Forest Classifier**, adequado para problemas 
 A aplicação foi desenvolvida no Google AI Studio para simular o funcionamento do modelo em um ambiente interativo.
 
  Acesse o protótipo:
-[https://aistudio.google.com/apps/8c38ab14-6db7-43ed-a190-d4e9674d4283](https://aistudio.google.com/apps/8c38ab14-6db7-43ed-a190-d4e9674d4283?source=start&showPreview=true&showAssistant=true)
+[[https://aistudio.google.com/apps/8c38ab14-6db7-43ed-a190-d4e9674d4283](https://aistudio.google.com/apps/8c38ab14-6db7-43ed-a190-d4e9674d4283?source=start&showPreview=true&showAssistant=true)](https://ai.studio/apps/8c38ab14-6db7-43ed-a190-d4e9674d4283)
 
 ---
 
