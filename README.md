@@ -1,4 +1,13 @@
-# Projeto: PrevixTor
+# 🔧 Projeto: PrevixTor
+
+O **PrevixTor** é um ecossistema de inteligência artificial focado em **Manutenção Preditiva Industrial**. Desenvolvido para a disciplina de Ciência de Dados, o projeto utiliza modelos avançados de *Machine Learning* para monitorar sensores de máquinas em tempo real e prever falhas antes que elas causem paradas na produção
+
+![Status do Projeto](https://img.shields.io/badge/Status-Conclu%C3%ADdo%20/%20M4-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Modelagem-orange?logo=scikit-learn)
+![Google AI Studio](https://img.shields.io/badge/Interface-Google%20AI%20Studio-blueviolet?logo=google-gemini)
+
+# 👥 1. Identificação do Grupo
 
 ### 1. Identificação do Grupo
 * **Instituição:** Faculdade Engenheiro Salvador Arena
@@ -12,7 +21,7 @@
 
 ---
 
-### 2. Área Problema Selecionada
+### 🎯 2. Área-Problema Selecionada
 O grupo seleciona uma das áreas norteadoras abaixo para o desenvolvimento do projeto:
 * [X] Manutenção Preditiva de Zero-Downtime
 * [ ] Eficiência Energética e Descarbonização via Smart Grids
@@ -21,7 +30,7 @@ O grupo seleciona uma das áreas norteadoras abaixo para o desenvolvimento do pr
 
 ---
 
-### 3. Diagnóstico e Definição do Problema
+###  🧩 3. Diagnóstico e Definição do Problema
 Esta seção apresenta a fundamentação do desafio. O grupo descreve o cenário de atuação e justifica a importância da solução proposta.
 * **Contexto:** O projeto aborda o cenário da Indústria 4.0, com foco em motores elétricos utilizados em esteiras industriais, onde a operação contínua é essencial para a produtividade.
 * **Problema:** A dificuldade central reside na ocorrência de falhas inesperadas em motores elétricos, que causam paradas não planejadas e não são previstas com precisão por métodos tradicionais,
@@ -30,7 +39,7 @@ Esta seção apresenta a fundamentação do desafio. O grupo descreve o cenário
 
 ---
 
-### 4. Arquitetura de Dados (Fonte e Dataset)
+### 🗂️ 4. Arquitetura de Dados (Fonte e Dataset)
 O projeto utiliza dados estruturados para alimentar os modelos preditivos.
 * **Origem dos Dados:** [(https://archive.ics.uci.edu/ml/datasets/AI4I+2020+Predictive+Maintenance+Dataset)].
 * **Características:** O conjunto de dados apresenta variáveis como:
@@ -46,7 +55,7 @@ O projeto utiliza dados estruturados para alimentar os modelos preditivos.
 
 ---
 
-### 5. Plano de Tratamento de Dados (ETL)
+### 🔄 5. Plano de Tratamento de Dados (ETL)
 O pipeline de dados segue as seguintes etapas de processamento:
 1. **Extração:** A ingestão ocorre via arquivos CSV do dataset AI4I, obtidos do repositório UCI.
 2. **Transformação:** O grupo aplica a limpeza de valores ausentes, a remoção de outliers e a normalização das escalas numéricas. 
@@ -54,28 +63,29 @@ O pipeline de dados segue as seguintes etapas de processamento:
 
 ---
 
-### 6. Estrutura do Repositório
-A organização das pastas facilita a manutenção e o versionamento do projeto:
-* `/docs`: Contém os diagramas de fluxo de dados e a documentação técnica.
-* `/data/raw`: Armazena os arquivos de dados originais (não modificados).
-* `/data/processed`: Armazena os dados após a execução do script de ETL.
-* `/scripts`: Contém os códigos Python responsáveis pelo tratamento dos dados.
-* `requirements.txt`: Lista todas as bibliotecas necessárias para a execução do projeto.
+### 📈 6. Desenvolvimento e Otimização (M2, M3 e M4)
+### M2 — Análise Exploratória (EDA)
+Análise descritiva para identificar correlações, distribuições e padrões iniciais no dataset.
+
+### M3 — Modelagem de IA
+Desenvolvimento dos modelos preditivos e avaliação inicial de desempenho (Acurácia, Precisão, Recall, F1-Score).
+
+### M4 — Refinamento e Otimização Profissional
+Etapa final para garantir a robustez técnica:
+* **Ajuste de Hiperparâmetros:** Uso de `GridSearchCV` ou `RandomSearch` para encontrar o melhor desempenho.
+* **Validação Cruzada (Cross-Validation):** Garantia de que o modelo generaliza bem para novos dados (evitando overfitting).
+* **Engenharia de Atributos Final:** Seleção das variáveis mais importantes (*Feature Importance*).
+---
+
+### 🖥️ 7. Dashboard de Monitoramento
+
+Interface visual para acompanhamento dos resultados:
+- **Link do Protótipo:** [[INSERIR LINK DO GOOGLE AI STUDIO OU OUTRO]](https://ai.studio/apps/579c07f3-a2ad-4930-bb69-43f4fd282dac)
+- **Funcionalidades:** [Ex: Gráfico de probabilidade de falha, entrada de dados manual para predição, KPIs de performance da IA].
 
 ---
 
-### 7. Instruções para Execução
-
-Para reproduzir o pipeline de ETL:
-
-1. Fazer o download do dataset a partir do repositório UCI.
-2. Executar o notebook no Google Colab.
-3. Realizar o upload do arquivo CSV no ambiente do Colab.
-4. Executar as células sequencialmente para realizar o tratamento dos dados e geração do arquivo processado.
-
----
-
-### 8. Aprofundamento Estatístico Individual
+### ☺ 8. Aprofundamento Estatístico Individual
 
 - A aluna Amanda validou que a relação entre a temperatura do ar e a temperatura do processo é significativa (p < 0,05) e apresenta forte correlação (≈ 0,86). Isso indica que ambas as variáveis possuem relevância para o modelo de Machine Learning, contribuindo para a capacidade preditiva. No entanto, por apresentarem alta correlação entre si, é necessário avaliar possíveis redundâncias, podendo ser considerada a utilização de apenas uma delas ou a criação de novas features derivadas, visando otimizar o desempenho do modelo.
 
