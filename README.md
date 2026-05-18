@@ -80,8 +80,8 @@ Etapa final para garantir a robustez técnica:
 ### 🖥️ 7. Dashboard de Monitoramento
 
 Interface visual para acompanhamento dos resultados:
-- **Link do Protótipo:** [[INSERIR LINK DO GOOGLE AI STUDIO OU OUTRO]](https://ai.studio/apps/579c07f3-a2ad-4930-bb69-43f4fd282dac)
-- **Funcionalidades:** [Ex: Gráfico de probabilidade de falha, entrada de dados manual para predição, KPIs de performance da IA].
+- **Link do Protótipo:** (https://ai.studio/apps/579c07f3-a2ad-4930-bb69-43f4fd282dac)
+- **Funcionalidades:** Entrada de dados manual para predição de falhas com análise técnica e recomendação imediata.
 
 ---
 
