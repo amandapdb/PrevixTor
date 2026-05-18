@@ -106,19 +106,19 @@ Esse resultado sugere que a temperatura do ar não exerce influência estatistic
 
 # M3
 
-## Objetivo
+## 🚀 Objetivo
 
 O projeto tem como objetivo prever falhas em máquinas industriais com base em variáveis operacionais, utilizando técnicas de Machine Learning.
 
 ---
 
-## Modelo Utilizado
+## 🧷 Modelo Utilizado
 
 Foi utilizado o algoritmo **Random Forest Classifier**, adequado para problemas de classificação.
 
 ---
 
-## Variáveis de Entrada
+## ⚙️ Variáveis de Entrada
 
 * Type
 * Air temperature
@@ -129,13 +129,13 @@ Foi utilizado o algoritmo **Random Forest Classifier**, adequado para problemas 
 
 ---
 
-## Variável Alvo
+## 🎯 Variável Alvo
 
 * Machine failure (0 = sem falha | 1 = falha)
 
 ---
 
-## Métricas de Avaliação
+## 📊 Métricas de Avaliação
 
 * Acurácia: 0.99
 * F1-Score: 0.98
@@ -145,16 +145,7 @@ Foi utilizado o algoritmo **Random Forest Classifier**, adequado para problemas 
 
 ---
 
-##  Protótipo da Aplicação
-
-A aplicação foi desenvolvida no Google AI Studio para simular o funcionamento do modelo em um ambiente interativo.
-
- Acesse o protótipo:
-[[https://aistudio.google.com/apps/8c38ab14-6db7-43ed-a190-d4e9674d4283](https://ai.studio/apps/579c07f3-a2ad-4930-bb69-43f4fd282dac))](https://ai.studio/apps/8c38ab14-6db7-43ed-a190-d4e9674d4283)
-
----
-
-## Observação
+## 📋 Observações
 
 Devido a limitações do Google AI Studio para execução de modelos baseados em sklearn, foi implementada uma simulação da lógica do modelo para representar o comportamento da previsão de falhas.
 
