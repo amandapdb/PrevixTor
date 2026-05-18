@@ -151,6 +151,17 @@ Devido a limitações do Google AI Studio para execução de modelos baseados em
 
 ---
 
-## Conclusão
+## 🧠 Conclusão
 
-O modelo demonstrou capacidade de identificar padrões associados a falhas, podendo ser utilizado como base para sistemas de manutenção preditiva.
+O presente trabalho demonstrou, de forma estruturada, a aplicação completa do ciclo de Ciência de Dados, desde a compreensão do problema até a construção e validação de um modelo de Inteligência Artificial voltado à manutenção preditiva.
+
+Inicialmente, foram realizadas etapas de tratamento e análise exploratória dos dados, permitindo a identificação de padrões relevantes e variáveis críticas para a ocorrência de falhas. Em seguida, foi desenvolvido um modelo de classificação baseado em Random Forest, que apresentou elevado desempenho, evidenciado por métricas como acurácia, F1-score e matriz de confusão.
+
+Na etapa de aprofundamento, foram aplicadas análises estatísticas e técnicas de interpretabilidade, garantindo não apenas a performance do modelo, mas também a compreensão de seu comportamento. A avaliação de robustez, por meio de testes de estresse, evidenciou a estabilidade do modelo em condições normais e sua sensibilidade a variações mais intensas nos dados.
+
+Por fim, a análise crítica permitiu identificar limitações inerentes ao problema, como o desbalanceamento das classes e a presença de regiões ambíguas nos dados, além de propor estratégias de melhoria contínua. 
+
+Dessa forma, o projeto não apenas atinge seus objetivos técnicos, mas também demonstra aplicabilidade prática em ambientes industriais, contribuindo para a redução de falhas, otimização de processos e tomada de decisão baseada em dados.
+
+Conclui-se, portanto, que a utilização de técnicas de Ciência de Dados e Machine Learning representa uma abordagem eficiente e estratégica para problemas de manutenção preditiva, com potencial real de impacto operacional e econômico.
+ 
