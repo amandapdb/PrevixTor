@@ -75,6 +75,8 @@ Etapa final para garantir a robustez técnica:
 * **Ajuste de Hiperparâmetros:** Uso de `GridSearchCV` ou `RandomSearch` para encontrar o melhor desempenho.
 * **Validação Cruzada (Cross-Validation):** Garantia de que o modelo generaliza bem para novos dados (evitando overfitting).
 * **Engenharia de Atributos Final:** Seleção das variáveis mais importantes (*Feature Importance*).
+* **LINK DO VÍDEO:**
+* (https://canva.link/5ynu10qnpgazpcq)
 ---
 
 ### 🖥️ 7. Dashboard de Monitoramento
